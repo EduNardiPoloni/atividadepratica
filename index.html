@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal</title>
+    <style> /* Utilizado como ferramenta CSS para estilizar os elementos */
+        body {
+            margin: 0;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: #251a06;
+            background-color: #C6C0B6;
+        }
+        .container {
+            display: grid;
+        }
+        header { /* Estilização do Cabeçalho */
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #82755F;
+            margin-top: 60px;
+        }
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;
+            gap: 20px;
+        }
+        .imagem_Edu {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 50px;
+            padding-right: 50px;
+            text-align: justify;
+        }
+        footer { /* Estilização do Rodapé */
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #82755F;
+            color: #C6C0B6;
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            color: #82755F;
+        }
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #82755F 5px;
+            border-radius: 100px;
+        }
+        li {
+            float: left;
+            margin: 10px;
+        }
+        a:hover { /* Estilização do link quando coloca o mouse sobre a opção */
+            background-color: #82755F;
+            color: #C6C0B6;
+        }
+    </style>
+</head>
+<body>
+    <header class="container">
+        <h1 style="color: #C6C0B6; text-align: center;">Portfólio Pessoal<br>Eduardo Nardi Poloni</h1>
+    </header> 
+    <nav class="container menu">
+        <ul> <!--Lista de links não ordenada-->
+            <li><a href="index.html">Sobre</a></li> 
+            <li><a href="carreira.html">Carreira</a></li>
+            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="container wrapper">
+        <aside class="imagem_Edu">
+            <img src="Edu.jpg">
+            <div class="infos"> <!--Informações gerais -->
+                <p><strong>Nascimento:</strong> 01 de Julho de 1991 (32 anos) <br>Caxias do Sul - Rio Grande do Sul</p>
+                <p><strong>Cidade Atual:</strong> Cuiabá - Mato Grosso</p>
+                <p><strong>Formação:</strong> Economia - UFMT</p>
+                <p><strong>Cursando:</strong> Análise e Desenvolvimento de <br>Sistemas - UNINTER</p>
+            </div>
+        </aside>
+        <section class="principal">
+            <h1>
+                SOBRE
+            </h1>
+            <p>Eduardo Nardi Poloni, Brasileiro nascido na cidade de Caxias do Sul no estado do Rio Grande do Sul na data de primeiro de julho de 1991, é especialista em vendas na móveis FLORENSE. Aos 15 anos mudou-se para a cidade de Cuiabá, no estado de Mato Grosso, com seus pais, aonde reside atualmente. Ao finalizar o ensino médio, ingressou no ano de 2010 no curso de Ciências Econômicas pela Universidade Federal de Mato Grosso onde concluiu o curso em 2015. Atuou profissionalmente por quatro anos no Banco Bradesco passando pelos cargos de escriturário, caixa e gerente assistente de pessoa jurídica, até optar por trabalhar na empresa que seu pai sempre trabalhou, a móveis FLORENSE. Atualmente é especialista em vendas nessa mesma empresa que comercializa móveis planejados de alto padrão. No final do ano de 2022, Eduardo começou a estudar Análise e Desenvolvimento de Sistemas em curso modalidade ead pela UNINTER com interesse de auar no futuro na área de tecnologia de informação como desenvolvedor front end.</p>
+            <p>Em relação aos interesses pessoais, Eduardo está em um relacionamento sério a quase 4 anos com a estudante de medicina Kássia Dantas e que pretende construir uma linda família com essa incrível mulher! No tempo livre, Eduardo gosta muito de assitir filmes, séries, jogar jogos em geral, assistir e jogar futebol, leituras, conhecer bons restaurantes e é apaixonado em viajar. As experiências e conhecimentos de novas culturas são coisas fascinantes que as viagens lhe proporcionam. </p>
+        </section>
+    </div>
+    <footer class="container">
+        <h1>Cuiabá - MT<br>2023</h1>
+    </footer>
+    </div>
+</body>
+</html>

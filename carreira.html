@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: #251a06;
+            background-color: #C6C0B6;
+        }
+        .container {
+            display: grid;
+        }
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #82755F;
+            margin-top: 60px;
+        }
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;
+            gap: 20px;
+        }
+        .imagem_Edu {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 50px;
+            padding-right: 50px;
+            text-align: justify;
+        }
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #82755F;
+            color: #C6C0B6;
+            text-align: center;
+        }
+        .card {
+            display: flex;
+            flex-flow: row wrap;
+        }
+        ul {
+            list-style-type: none;
+            color: #82755F;
+        }
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #82755F 5px;
+            border-radius: 100px;
+        }
+        li {
+            float: left;
+            margin: 10px;
+        }
+        a:hover {
+            background-color: #82755F;
+            color: #C6C0B6;
+        }
+        .img {
+            border: 5px solid #82755F;
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 50px;
+            margin: 30px;
+        }
+        .img img {
+            width: 150px;
+            height: 125px;
+        }
+        .empresa {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="container">
+        <h1 style="color: #C6C0B6; text-align: center;">Portfólio Pessoal<br>Eduardo Nardi Poloni</h1>
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">Sobre</a></li>
+            <li><a href="carreira.html">Carreira</a></li>
+            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="container wrapper">
+        <aside class="imagem_Edu">
+            <img src="Edu.jpg">
+            <div class="infos">
+                <p><strong>Nascimento:</strong> 01 de Julho de 1991 (32 anos) <br>Caxias do Sul - Rio Grande do Sul</p>
+                <p><strong>Cidade Atual:</strong> Cuiabá - Mato Grosso</p>
+                <p><strong>Formação:</strong> Economia - UFMT</p>
+                <p><strong>Cursando:</strong> Análise e Desenvolvimento de <br>Sistemas - UNINTER</p>
+            </div>
+        </aside>
+        <section class="principal">
+            <h1>
+                CARREIRA
+            </h1>
+            <p>Cursos: <br> - Bacharelado em Ciências Econômicas (UFMT); <br>- Cursando Análise e Desenvolvimento de Sistemas (UNINTER); <br>- Inglês intermediário (3 anos na Wizard); <br>- Certificação CPA 10 (ANBIMA).<br><br>Experiências profissionais:</p>
+            <div class="card">
+                <div class="img">
+                    <img src="cerealpar.jpg">
+                    <div class="empresa">
+                        <h2>Cerealpar</h2>
+                        <p>2014-2014</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="deville.jpg">
+                    <div class="empresa">
+                        <h2>Deville</h2>
+                        <p>2017-2018</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="bradesco.jpg">
+                    <div class="empresa">
+                        <h2>Bradesco</h2>
+                        <p>2018-2022</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="florense.jpg">
+                    <div class="empresa">
+                        <h2>Florense</h2>
+                        <p>2022-Atual</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="container">
+        <h1>Cuiabá - MT<br>2023</h1>
+    </footer>
+    </footer>
+    </div>
+</body>
+</html>
